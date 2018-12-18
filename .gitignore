@@ -1,6 +1,8 @@
 .idea
 build
 node_modules
+package-lock.json
+yarn.lock
 ### Windows template
 # Windows thumbnail cache files
 Thumbs.db
