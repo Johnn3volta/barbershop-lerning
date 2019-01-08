@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "string-quotes": "single",
+    "indentation": 2,
+    "no-duplicate-selectors": true,
+    "color-hex-case": "lower",
+    "color-hex-length": "long",
+    "selector-no-qualifying-type": true,
+    "selector-no-id": true,
+    "declaration-colon-space-before": "never",
+    "property-no-vendor-prefix": true
+  }
+}
