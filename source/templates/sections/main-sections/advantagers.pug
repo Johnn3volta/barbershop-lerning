@@ -1,0 +1,22 @@
+section.advantages
+  .advantages__wrapper.slider
+    h2.vissualy-hidden Наши преимущества
+    ul.advantages__list.slider__list
+      li.advantages__item.advantages__item--fast.slider__item
+        h3.advantages__title Быстро
+        p.advantages__description.
+          Мы делаем свою работу ! Два часа прлетят незаметно
+          и вы - счастливый обладатель стильной стрижки - минутки.
+      li.advantages__item.advantages__item--cool.slider__item
+        h3.advantages__title Круто
+        p.advantages__description.
+          Забудьте как вы стриглись раньше. Мы зделаем из вас звезду
+          футбола или кино. Во случае внешне.
+      li.advantages__item.advantages__item--price.slider__item
+        h3.advantages__title Дорого
+        p.advantages__description.
+          Наши мастера - проффесионалы своего дела и не могут стоить дешево.
+          К тому же, разве цена не дает определенный статус ?
+    p.advantages__toggles.slider__toggles
+      for i in [1,2,3]
+        button.slider__toggle(type="button") #{i}
